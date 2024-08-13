@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Styling Demot</title>
+    <body>
+        <p>This is my paragrph</p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Magni maxime alias tenetur officia, ipsa rerum asperiores 
+            libero doloribus optio quod minus tempore, consectetur 
+            corporis est deleniti! Accusantium molestiae perferendis 
+            aperiam.
+        </p>
+        
+        <b>This is a bolded text outside of a paragraph.</b>
+        <i>This is a italicized textn outside of a paragraph</i>
+
+        <p>This a<b>boled text </b> inside a paragraph.
+        </p>
+        <p>
+             This is a <i>italicized text <i/> inside a  paragraph.
+             </p>
+             
+             <p>
+                This ia <sup>supercripted text </sup> inside of a paragraph.
+            </p>
+            <p>
+                This is <sub>supercripted text </sub> inside a paragraph.
+            </p>
+             This sentence has a line break<br> in the middle of it.
+        </p>
+        <hr>
+        <p>
+            This paragraph is seperated from the above it by a horizontal rule.
+        </p>
+
+        <p>This is fun</p> 
+            
+
+
+    </body>
+</html>
