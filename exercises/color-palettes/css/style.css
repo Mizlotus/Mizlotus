@@ -1,0 +1,23 @@
+#palette1-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    text-align: center;
+}
+
+#palette1-color1{
+    background-color: 84cae7;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 24px
+}
+#palette2-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    text-align: right;
+}
+#paltte2{
+    background-color: ddc9b4;
+    color: old rose;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
