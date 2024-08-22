@@ -1,24 +1,46 @@
 #palette1-title{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
 #palette1-color1{
-    background-color: 84cae7;
-    color: turquoise;
+    background-color: #84cae7;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px
 }
-#palette2-title{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+#palette1-color2{
+    background-color: #22aaa1;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: right;
+    padding: 24px;
 }
-#palette1-color2
-#paltte2{
-    background-color: ddc9b4;
-    color: old rose;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#palette1-color3{
+    background-color:#136f63;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    padding: 24px;
+}
+
+#palette1-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#palette2-color1{
+    background-color:#8b728e;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    padding: 24px;
+}
+#palette2-color2{
+    background-color:#694873;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
     padding: 24px;
 }

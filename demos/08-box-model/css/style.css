@@ -1,0 +1,14 @@
+div {
+    border: 10px dashed purple;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: lightcoral;
+}
+
+p{
+    border:20px  blue;
+    margin: 60px;
+    padding:48px 60px;
+    background-color: green;
+    border-radius: 50%;
+}
