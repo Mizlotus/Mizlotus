@@ -1,0 +1,66 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#image1 {
+    width: 100px;
+    margin-top: 150px;
+    border: 10px solid darkred;
+    padding: 16px;
+    background-color: antiquewhite; 
+}
+
+#frame1 {
+    width: 80px;
+    border: 8px solid black;
+    padding: 6px;
+    margin-top: 24px;
+    background-color: #333333;
+}
+
+#image2 {
+    width: 100px;
+    display: block;
+}
+
+#image2 {
+    width: 100px;
+    margin-top: 150px;
+    border: 10px solid blue;
+    padding: 16px;
+    background-color: antiquewhite; 
+}
+
+#frame2 {
+    width: 70px;
+    border: 10px solid black;
+    padding: 6px;
+    margin-top: 24px;
+    background-color: #703434; 
+}
+
+#image3 {
+    width: 90px;
+    display: block;
+}
+
+#image3 {
+    width: 100px;
+    margin-top: 150px;
+    border: 10px solid darkgrey;
+    padding: 16px;
+    background-color: lightpink; 
+}
+
+#frame3 {
+    width: 70px;
+    border: 10px solid black;
+    padding: 6px;
+    margin-top: 24px;
+    background-color: #604f93; 
+}
