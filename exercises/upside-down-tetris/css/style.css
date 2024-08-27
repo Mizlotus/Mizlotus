@@ -18,26 +18,23 @@
     background-color: red;
     border-color: crimson;
 }
-.tetris-block{
-    border-width: 12px;
-    border-style: outset;
-    display: inline-block;
-    padding: 20px;
-}
 
 .blue{
     background-color: blue;
     border-color: blueviolet;
 }
 
-.tetris-block{
-    border-width: 12px;
-    border-style: outset;
-    display: inline-block;
-    padding: 20px;
+.pinkmagenta{
+    background-color: pink;
+    border-color: darkmagenta;
 }
 
-.pink{
-    background-color: pink;
-    border-color: da
+.orange{
+    background-color: orange;
+    border-color: green;
+}
+
+.teal{
+    background-color: teal;
+    border-color: yellow;
 }
