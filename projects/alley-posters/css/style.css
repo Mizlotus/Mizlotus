@@ -9,7 +9,7 @@
 
 #image1 {
     width: 100px;
-    margin-top: 150px;
+    margin-top: 50px;
     border: 10px solid darkred;
     padding: 16px;
     background-color: antiquewhite; 
@@ -30,7 +30,7 @@
 
 #image2 {
     width: 100px;
-    margin-top: 150px;
+    margin-top: 15px;
     border: 10px solid blue;
     padding: 16px;
     background-color: antiquewhite; 
@@ -50,13 +50,13 @@
 }
 
 #image3 {
-    width: 100px;
-    margin-top: 150px;
+    width: 50px;
+    margin-top: 50px;
     border: 10px solid darkgrey;
     padding: 16px;
     background-color: lightpink; 
 }
-
+ 
 #frame3 {
     width: 70px;
     border: 10px solid black;
