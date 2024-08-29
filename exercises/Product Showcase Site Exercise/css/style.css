@@ -20,3 +20,13 @@ body {
     background-color: green;
     padding: 48px 0px ;
 }
+
+.dark-container {
+    background-color: rgb(192, 112, 15) ;
+    padding: 48px 0px ;
+}
+
+.light-container {
+    background-color: rgb(54, 65, 219);
+    padding: 48px 0px ;
+}
