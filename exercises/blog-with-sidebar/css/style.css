@@ -5,6 +5,7 @@
 body{
     margin: 0px;
     font-family: sans-serif;
+    background-color: black;
 }
 
 #grid-layout {
@@ -36,7 +37,7 @@ body{
 }
 
 #sidebar-content a{
-    color: darkolivegreen;
+    color: blueviolet;
     text-decoration: none;
 }
 
