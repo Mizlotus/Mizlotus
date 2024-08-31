@@ -46,9 +46,7 @@ body{
     border-radius: 12px;
 }
 
-/*****************************************************************************
-    SIDEBAR STYLING SECTION 
- *****************************************************************************/
+
 #sidebar ul {
     padding: 12px 0px;
     margin: 0px;
@@ -63,10 +61,8 @@ body{
     padding: 12px;
 }
 
-/* pseudo-class*/
-
 #sidebar ul a:hover {
-    background-color: #EEEEEE;
+    background-color: lightblue;
     border-radius: 12px;
 }
 
