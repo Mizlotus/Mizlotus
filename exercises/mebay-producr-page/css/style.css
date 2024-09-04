@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+}
+
+#column-one {
+    background-color: aqua;
+    height: 250px
+}
+
+#column-two {
+    background-color: lightgreen;
+    height: 250px
+}
+#column-three {
+    background-color: aqua;
+    height: 250px
+}
