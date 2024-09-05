@@ -9,7 +9,7 @@ body{
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 250px 1fr 250px;
+    grid-template-columns: 150px 600px 400px;
 }
 
 #column-one {
@@ -20,7 +20,7 @@ body{
 }
 
 #column-two {
-    background-color: lightseagreen;
+    background-color: white;
 }
 
 #column-two img {
