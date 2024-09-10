@@ -7,3 +7,26 @@ body{
     font-family: sans-serif;
 }
 
+#hero-1{
+    background-image: url("../images/cody-scott-milewski.jpg");
+    height: 100vh;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+}
+
+#hero-1 h1{
+    font-size: 10vw;
+    padding-left: 10vw;
+    font-display: white;
+}
+
+#hero-1 h2{
+    padding-left: 10vw;
+}
+
+.spacer{
+    height: 50vh;
+}
