@@ -21,3 +21,18 @@
 .card-style-1 h2{
     text-align: center;
 }
+
+.card-style-1 p{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.card-style-1 a{
+    background-color: green;
+    display: block;
+    text-align: center;
+    padding: 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
