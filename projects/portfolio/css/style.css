@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1{
+    background-image: url("../images/w-il-12-.jpg");
+    height: 50vh;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 h1{
+    display: inline-block;
+    width: 100px;
+    color: green;
+    justify-content: baseline;
+    padding-left: 24px;
+}
+
+.spacer{
+    height: 50vh;
+}
+
+#layout{
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#layout h3{
+    padding-left: 24px;
+}
+
