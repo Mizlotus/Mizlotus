@@ -19,14 +19,20 @@ body{
 
 #hero-1 h1{
     display: inline-block;
-    width: 100px;
-    color: green;
+    width: 70px;
+    color: rgb(230, 235, 230);
     justify-content: baseline;
-    padding-left: 24px;
+    padding-left: 100px;
 }
 
-.spacer{
-    height: 50vh;
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #c475eb;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
 }
 
 #layout{
@@ -36,6 +42,53 @@ body{
 }
 
 #layout h3{
-    padding-left: 24px;
+    padding: 24px;
 }
 
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+    border: 10px solid #333333;
+    padding: 24px;
+    margin: 24px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background-color: #c475eb;
+    color: #f1ecec;
+    padding: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 5px solid #0a0b0b;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
