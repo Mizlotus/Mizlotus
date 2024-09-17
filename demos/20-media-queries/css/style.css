@@ -8,15 +8,15 @@ body {
 }
 
 #nav {
-    background-color: #222222;
+    background-color: #0e7f26;
     display: flex;
     justify-content: center;
 }
 
 #nav a {
     color: white;
-    text-decoration: none;
     font-size: 18px;
+    text-decoration: none;
     padding: 20px;
 }
 
@@ -32,7 +32,7 @@ body {
     gap: 48px;
 }
 
-.image-container{
+.image-container img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -53,28 +53,96 @@ body {
     color: #FFB700;
 }
 
+.featured {
+    background-color: #222222;
+    color: white;
+    padding: 24px 0px;
+}
+
+.featured h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    grid-template-areas: 
+    "txt1 img1 img2 img2"
+    "img3 img3 img4 txt2";
+}
+
+#p2 {
+    grid-area: txt1;
+}
+
+#p2 {
+    grid-area: txt2;
+}
+
+#img1 {
+    grid-area: img1;
+}
+
+#img2 {
+    grid-area: img2;
+}
+
+#img3 {
+    grid-area: img3;
+
+}#img4 {
+    grid-area: img4;
+}
+
+.grid p {
+    border: 2px solid #FFB700;
+    border-radius: 24px;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+
 /* Table Breakpoint*/ 
-@media screen and (max-width: 768) and (min-width: 481px) {
+@@media screen and (max-width: 768px) and (min-width: 481px) {
     body {
-        background-color: skyblue;
+        /*background-color: skyblue;*/
     }
-    .container-container h1 {
+    .content-container h1 {
         font-size: 32px;
     }
 
     .intro {
-        gap: 20px;
+        gap: 24px;
     }
 
     .image-container {
         height: 300px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "txt1 img1 "
+        "img2 img2 "
+        "img3 txt3"
+        "img4 txt2";
     }
 }
 
 /* Mobile Breakpoint*/
 @media screen and (max-width: 480px) {                                                                   
     body { 
-        background-color: firebrick;
+        /*background-color: firebrick;*/
     }
     #nav {
        /* flex-wrap: wrap;*/
@@ -84,5 +152,25 @@ body {
 
     .intro {
         flex-direction: column;
+    }
+}
+
+.grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "txt1"
+        "img1 "
+        "img2" 
+        "img2 "
+        "txt3"
+        "img4" 
+        "txt2";
+}
+
+    .grid p {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
