@@ -13,6 +13,38 @@ body {
     align-items: flex-start;
 }
 
+.gallery-card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.gallery-card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.gallery-card1:hover {
+    background-color: rgb(169, 156, 122);
+    box-shadow: 4px 4px 4px #d6c0c033;
+    transform: translateY(-4px);
+}
+
+.gallery-card1-container {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
 .gallery-card img {
     height: 250px;
     flex: 1;
@@ -39,35 +71,32 @@ body {
     margin-top: 36px;
 }
 
-.gallery-card a:hover {
-    background-color: rgb(173, 127, 42);
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
-}
-
-
-
-#gallery-card-container {
+#gallery2-card2-container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 
+
+
 .gallery2-card a {
-    transition: 
-        background-color 0.5s,
-        box-shadow 0.5s,
-        transform 0.5s;
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
 }
 
 .gallery2-card:hover a {
-    background-color: purple;
+    background-color: aquamarine;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
 
-.gallery-card {
-    background-color: rgb(169, 156, 122);
+.gallery2-card {
+    background-color: #2bd7c3;
     flex: 400px;
     border: 4px solid black;
     margin: 24px;
