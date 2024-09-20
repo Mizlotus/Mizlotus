@@ -10,7 +10,7 @@ body{
 #hero-1{
     background-image: url("../images/lizard.jpg");
     height: 100vh;
-    background-size: contain;
+    background-size: 480px 800px;
     background-position: center center;
     display: flex;
     justify-content: flex-start;
