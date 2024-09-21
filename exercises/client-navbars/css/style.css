@@ -2,31 +2,25 @@
     box-sizing: border-box;}
     
     body {
-    margin: 0px;font-family: sans-serif;}
+        margin: 0px;
+        font-family: sans-serif;}
     
     #navbar {
         background: linear-gradient(to bottom, #895a0acf, #895a0acf);
         display: flex;
+        justify-content: center;
     }
     
-        #navbar a {
-            text-decoration: none;
-            color: white;
-            padding: 24px;
-     }
-        
-
-     #navbar {
-        background: linear-gradient(to bottom, #ca4d0e, #ca4d0e);
-        display: flex;
-        align-items: center;
-    }
-    
-    #navbar a {
+     #navbar a {
         text-decoration: none;
         color: white;
         padding: 24px;
-    }
+     }
+
+     #navbar h1 {
+        margin-right: auto;
+        padding-left: 24px;
+     }
     
     #navbar #logo {
         margin-right: auto;
@@ -36,7 +30,7 @@
         width: 150px;
     }
     
-    #navbar .cta-buttom {
+    .navbar .cta-buttom {
         background-color: rgb(255, 255, 255);
         color: rgb(177, 7, 7);
         border-radius: 50px;
@@ -46,4 +40,18 @@
         min-width: 150px;
         text-align: center;
         margin-right: 24px;
+    }
+
+    #navbar a:hover {
+        background: linear-gradient(
+            to top, 
+            #1d8e4e,
+            #1d8e4e
+        );
+    }
+
+    #angelears.html .navbar {
+        background: linear-gradient(to bottom, #edd235e1, #edd235e1);
+        display: flex;
+        justify-content: center;
     }
