@@ -79,9 +79,27 @@ body {
     background: #e9710e;
 }
 
-.dropdown-menu img a {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 24px;
+.center-column {
+    background-color: #c1e6ad;
+    width: 50%;
+    min-height: 500px;
+    margin: 0px auto;
+}
+
+.center-column img {
+    width: 500px;
+    margin: 48px auto;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.center-column h2 {
+    text-align: center;
+    padding-top: 24px;
+}
+
+.center-column p {
+    text-align: center;
+    padding-bottom: 24px;
 }
