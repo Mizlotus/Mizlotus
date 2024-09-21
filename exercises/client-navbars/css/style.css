@@ -50,8 +50,16 @@
         );
     }
 
-    #angelears.html .navbar {
-        background: linear-gradient(to bottom, #edd235e1, #edd235e1);
+    #navbar.angelears {
+        background: linear-gradient(to bottom, #d18024e1, #d18024e1);
         display: flex;
         justify-content: center;
+    }
+
+    #navbar.angelears a:hover {
+        background: linear-gradient(
+            to top, 
+            #1d8e4e,
+            #1d8e4e
+        );
     }
