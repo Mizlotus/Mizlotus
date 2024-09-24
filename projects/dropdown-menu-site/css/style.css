@@ -37,7 +37,7 @@ body {
 
 #hero {
     background-image: url("../images/Family-and-pet.jpg");
-    height: 100vh;
+    height: 100vh; 
     background-size: contain;
     background-position: center center;
     display: flex;
