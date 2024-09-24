@@ -6,8 +6,15 @@ body {
     font-family: sans-serif;
 }
 
-navbar {
-    background: linear-gradient(to bottom, #dc4978,#dc4978);
+#navbar {
+    background: linear-gradient(to bottom, #a16c21cc,#875d0acd);
     display: flex;
     align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
 }
