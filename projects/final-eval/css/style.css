@@ -5,3 +5,54 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+.spacer {
+    height: 100vh;}
+    
+#hero-1 {
+    background-image: url("../images/dave-adamson-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-1 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns:400px 1fr 400px 1fr;
+}
+
+#column-1 {
+    background-color: lightblue;
+}
+    
+#column-1-img {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#column-2 {
+    background-color: white;
+    color: darkblue;
+}
+
+#column-3 {
+    background-color: aquamarine;
+}
+
+#column-3-img {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
