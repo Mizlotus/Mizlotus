@@ -31,7 +31,9 @@ body {
 }
 
 #three-columns ul {
-    list-style-type: none;padding: 0px;}
+    list-style-type: none;
+    padding: 0px;
+}
 
 #column-1 {
     background-color: lightblue;
