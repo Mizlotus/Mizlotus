@@ -108,6 +108,7 @@ body {
 #column-2 {
     padding: 24px 48px;
     grid-area: main-area;
+    margin-inline: block;
 }
 
 #column-2 img {
