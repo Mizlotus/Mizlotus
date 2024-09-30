@@ -7,7 +7,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #191919,#191919);
+    background: linear-gradient(to bottom, #334f5e,#334f5e);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,6 +92,20 @@ body {
     align-items: center;
 }
 
+#hero .hero-content {
+    text-align: center;
+    color: #191919;
+    padding-top: 20vh;
+}
+
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    text-decoration: none;
+}
+
+
+
 #the-big-waffle {
     display: flex;
     margin: 24px 0px;
@@ -101,7 +115,6 @@ body {
 }
 
 #column-1 {
-    margin-left: 24px;
     grid-area: left-sidebar;
 }
 
@@ -131,7 +144,7 @@ body {
 } 
 
 #footer {
-    background: linear-gradient(to bottom, #cc3366, #191919);
+    background: linear-gradient(to bottom, #cc3366, #334f5e);
     color: white;
     padding: 12px;
 }
@@ -161,11 +174,81 @@ body {
     padding: 8px 0px;
 }
 
-/*
-    Layout setup and configuration
-*/
 #layout {
     width: 800px;
     margin: 48px auto;
     font-size: 24px;
+}
+
+@media screen and ( max-width: 900px) {
+    #navbar {
+        flex-direction: column;
+    }
+} 
+
+#two-columns {
+    display: flex;
+}
+    
+#column-1,#column-2 {
+    flex: 1;
+}
+    
+#column-1 {
+    background-color: #88d3d0;
+    padding: 24px;
+}
+    
+#column-2 {
+    background-color: #88d3d0;
+    
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+    
+#card-section {
+    background-color: #334f5e;
+    color: #bfefff;
+    padding: 48px;
+}
+    
+    
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card img {
+    width: 100%;
+   }
+    
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+    
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+#High-Protein{
+    display: flex;
+    margin: 24px 0px;
+    display: grid;
+    grid-template-columns: 24px 200px 550px 24px;
+    grid-template-areas: " . left-sidebar main-area . ";
 }
